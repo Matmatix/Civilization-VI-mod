@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<LocalizedText>
+		<!--CIVILIZATION-->
+		<Row Tag="LOC_CIVILIZATION_MWK_CIV_AMERICA_NAME" Language="en_US">
+			<Text>Conservative America</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MWK_CIV_AMERICA_DESCRIPTION" Language="en_US">
+			<Text>The Republic of Conservative America</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MWK_CIV_AMERICA_ADJECTIVE" Language="en_US">
+			<Text>American</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MWK_CIV_AMERICA_DESCRIPTION_MWK_CIVILIZATION" Language="en_US">
+			<Text>Conservative American</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="LOC_CIVINFO_MWK_CIV_AMERICA_LOCATION" Language="en_US">
+			<Text>The United States of America</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MWK_CIV_AMERICA_POPULATION" Language="en_US">
+			<Text>323.1 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MWK_CIV_AMERICA_SIZE" Language="en_US">
+			<Text>9.54 million square miles</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_MWK_CIV_AMERICA_CAPITAL" Language="en_US">
+			<Text>Texas</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MWK_CIV_AMERICA_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>American conservatism is a broad system of political beliefs in the United States that is characterized by respect for American traditions, support for Judeo-Christian values, moral absolutism, economic liberalism, anti-communism, 
+			advocacy of American exceptionalism, and a defense of Western culture from threats posed by "creeping socialism", moral relativism, multiculturalism and liberal internationalism. Liberty is a core value, with a particular emphasis on strengthening 
+			the free market, limiting the size and scope of government in the economy, and opposition to high taxes and government or labor union encroachment on the entrepreneur. American conservatives consider individual liberty, within the bounds of conformity to American 
+			values, as the fundamental trait of democracy, which contrasts with modern American liberals, who generally place a greater value on equality and social justice.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MWK_CIV_AMERICA_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>American conservatism originates from the Republicanism in the United States that rejected aristocracy and monarchy and built a new nation based on the principles of the Declaration of Independence of 1776, which said that 
+			"All men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the Pursuit of Happiness". In 1789, the Constitution of United States established a Federal Republic under 
+			the rule of law. All major American political parties are based on these two documents. Conservative activists to this day occasionally dress in costumes from the Revolutionary era, and celebrate revolutionary episodes such as the Boston Tea Party. 
+			Conservatives also have major links to the classical liberalism of 18th and 19th centuries, which advocated laissez-faire economics, also called economic freedom.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MWK_CIV_AMERICA_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Historians argue that the conservative tradition has played a major role in American politics and culture since 1776. However they have stressed that an organized conservative movement has played a key role in politics only since the 1950s. 
+			The recent movement is based in the Republican Party, though some Democrats were also important figures early in the movement's history.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MWK_CIV_AMERICA_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>The history of American conservatism has been marked by tensions and competing ideologies. Fiscal conservatives and libertarians favor small government, laissez-faire economy, low income and corporate taxes, limited regulation, and free 
+			enterprise. Social conservatives see traditional social values as threatened by secularism; they tend to support voluntary school prayer and oppose abortion and same sex marriage.  The 21st century has seen an increase in conservative support for 
+			the Second Amendment to the United States Constitution.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MWK_CIV_AMERICA_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Among our convictions: It is the job of centralized government (in peacetime) to protect its citizens' lives, liberty and property. All other activities of government tend to diminish freedom and hamper progress. 
+			The growth of government (the dominant social feature of this century) must be fought relentlessly. In this great social conflict of the era, we are, without reservations, on the libertarian side. The profound crisis of our era is, 
+			in essence, the conflict between the Social Engineers, who seek to adjust mankind to scientific utopias, and the disciples of Truth, who defend the organic moral order. We believe that truth is neither arrived at nor illuminated by monitoring
+			election results, binding though these are for other purposes, but by other means, including a study of human experience. On this point we are, without reservations, on the conservative side.</Text>
+		</Row>
+		
+		
+		<!--Cities-->
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_1" Language="en_US">
+			<Text>Los Angeles</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_2" Language="en_US">
+			<Text>Houston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_3" Language="en_US">
+			<Text>Tampa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_4" Language="en_US">
+			<Text>Berkeley</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_5" Language="en_US">
+			<Text>Madison</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_6" Language="en_US">
+			<Text>Dallas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_7" Language="en_US">
+			<Text>New York</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_8" Language="en_US">
+			<Text>Las Vegas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_9" Language="en_US">
+			<Text>Washington D.C.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_10" Language="en_US">
+			<Text>Chicago</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_11" Language="en_US">
+			<Text>Atlanta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_12" Language="en_US">
+			<Text>Seattle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_13" Language="en_US">
+			<Text>Portland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_14" Language="en_US">
+			<Text>Charlotte</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_15" Language="en_US">
+			<Text>Philadelphia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_16" Language="en_US">
+			<Text>San Diego</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_17" Language="en_US">
+			<Text>Santa Montica</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_18" Language="en_US">
+			<Text>Miami</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_19" Language="en_US">
+			<Text>New Orleans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_20" Language="en_US">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_21" Language="en_US">
+			<Text>New Jersey</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_22" Language="en_US">
+			<Text>Milwaukee</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_23" Language="en_US">
+			<Text>Denver</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_24" Language="en_US">
+			<Text>Phoenix</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_25" Language="en_US">
+			<Text>Santa Fe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_26" Language="en_US">
+			<Text>Des Moines</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_27" Language="en_US">
+			<Text>Indianapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_28" Language="en_US">
+			<Text>Bar Harbor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_29" Language="en_US">
+			<Text>Minneapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MWK_CIV_AMERICA_30" Language="en_US">
+			<Text>Lansing</Text>
+		</Row>
+		
+		
+		
+		<!--Citizens-->
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_1" Language="en_US">
+			<Text>Steven Crowder</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_2" Language="en_US">
+			<Text>Not Gay Jared</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_3" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_4" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_5" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_6" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_7" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_8" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MALE_9" Language="en_US">
+			<Text>Some Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_1" Language="en_US">
+			<Text>Not Gay Jared</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_2" Language="en_US">
+			<Text>Steven Crowder</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_3" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_4" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_5" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_6" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_7" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_8" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_9" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_MALE_10" Language="en_US">
+			<Text>Some Modern Guy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_1" Language="en_US">
+			<Text>Lauren Southern</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_2" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_3" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_4" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_5" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_6" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_7" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_8" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_9" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_FEMALE_10" Language="en_US">
+			<Text>Some Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_1" Language="en_US">
+			<Text>Lauren Southern</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_2" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_3" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_4" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_5" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_6" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_7" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_8" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_9" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MWK_CIV_AMERICA_MODERN_FEMALE_10" Language="en_US">
+			<Text>Some Modern Girl</Text>
+		</Row>
+		
+		
+		
+		<!--LEADER-->
+		<Row Tag="LOC_LEADER_MWK_BEN_SHAPIRO_NAME" Language="en_US">
+			<Text>Ben Shapiro</Text>
+		</Row>
+
+		
+		<!--DOM-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MWK_BEN_SHAPIRO" Language="en_US">
+			<Text>Benjamin Aaron Shapiro (born January 15, 1984) is an American conservative political commentator, columnist, author, radio talk show host, lawyer, and the 46th President of the United States.  
+			A native of Los Angeles, California, Shapiro graduated from Yeshiva University High School of Los Angeles at age 16, after skipping two grades.  He graduated summa cum laude and Phi Beta Kappa from the University of California, 
+			Los Angeles in 2004, at age 20, with a Bachelor of Arts degree in political science, and then cum laude from Harvard Law School in 2007.  He then practiced law at Goodwin Procter. Today he runs an independent legal consultancy firm, 
+			Benjamin Shapiro Legal Consulting, in Los Angeles.  He has written seven books, the first being 2004's Brainwashed: How Universities Indoctrinate America's Youth, which he started writing when 17 years old.  At age 17, he also became 
+			the youngest nationally syndicated writer in the country.  He writes a column for Creators Syndicate and is editor-in-chief at The Daily Wire. He is the co-founder and former editor-in-chief of the media watchdog group TruthRevolt.</Text>
+		</Row>
+		
+		
+		<!--Civilopedia-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_TITLE" Language="en_US">
+			<Text>Ben Shapiro, Editor-In-Chief of the Daily Wire</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_SUBTITLE" Language="en_US">
+			<Text>President Benjamin A. Shapiro of the United States of America</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_QUOTE" Language="en_US">
+			<Text>Facts don't care about your feelings.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Benjamin Shapiro was born in 1984. He entered UCLA at the age of 16 and graduated summa cum laude and Phi Beta Kappa in June 2004 with a BA in Political Science. He graduated Harvard Law School cum laude in June 2007.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Shapiro was hired by Creators Syndicate at age 17 to become the youngest nationally syndicated columnist in the U.S. His columns are printed in major newspapers and websites including Townhall.com, ABCNews.com, WorldNetDaily.com, Human Events, FrontPageMag.com, FamilySecurityMatters.com, the Riverside Press-Enterprise and the Conservative Chronicle. His columns have also appeared in the Christian Science Monitor, Chicago Sun-Times, Orlando Sentinel, Honolulu Star-Advertiser, RealClearPolitics.com, Arizona Republic, and Claremont Review of Books, among others. He has been the subject of articles in the Wall Street Journal, the New York Times, Associated Press, and Christian Science Monitor; he has been quoted on "The Rush Limbaugh Show," "The Dr. Laura Show," at CBSNews.com, in the New York Press, in the Washington Times, and in The American Conservative magazine, among many others.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Since he began writing his first book, Brainwashed: How Universities Indoctrinate America’s Youth (2004), Shapiro has frequently addressed the issue of the Left’s ideological stranglehold on academia and has worked to push back against that trend through fact and logic-based speeches and debates. “Facts don’t care about your feelings,” has become one of Ben Shapiro’s trademark lines. He has appeared as the featured speaker at many conservative events on campuses nationwide, several of those appearances targeted by progressive and “Antifa” activists. Shapiro, an Orthodox Jew, has also worked to expose the anti-Israel and anti-Semitic motivations behind the Boycott, Divestment and Sanctions movement.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Ben Shapiro is editor-in-chief of The Daily Wire and host of "The Ben Shapiro Show," the top conservative podcast in the nation. Shapiro is the author of seven nonfiction books, including The New York Times bestseller Bullies: How the Left’s Culture of Fear and Intimidation Silences America and national bestsellers Brainwashed: How Universities Indoctrinate America’s Youth (WND Books, May 2004), Porn Generation: How Social Liberalism Is Corrupting Our Future (Regnery, June 2005), and Project President: Bad Hair and Botox on the Road to the White House (Thomas Nelson, 2008). Shapiro was hired by Creators Syndicate at age 17 to become the youngest nationally syndicated columnist in the U.S. He earned a BA in Political Science from UCLA in 2004 and graduated from Harvard Law School in 2007. After working as an attorney for Goodwin Procter LLP, Shapiro began his own legal consulting firm, Benjamin Shapiro Legal Consulting (Los Angeles).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>Ben Shapiro’s columns are printed in major newspapers and websites including Townhall, ABCNews, WorldNet Daily, Human Events, FrontPage Mag, Family Security Matters, the Riverside Press-Enterprise and the Conservative Chronicle. His columns have also appeared in the Christian Science Monitor, Chicago Sun-Times, Orlando Sentinel, Honolulu Star-Advertiser, RealClearPolitics.com, Arizona Republic, and Claremont Review of Books, among others. He has been the subject of articles in the Wall Street Journal, the New York Times, Associated Press, and Christian Science Monitor, and quoted on "The Rush Limbaugh Show," "The Dr. Laura Show," at CBS News, in the New York Press, in the The Washington Times, and in The American Conservative magazine, among many others. Shapiro has appeared on hundreds of radio and television shows around the nation, including "The O'Reilly Factor" (Fox News), "Fox and Friends" (Fox News), "In the Money" (CNN Financial), "DaySide with Linda Vester" (Fox News), "Scarborough Country" (MSNBC), "The Dennis Miller Show" (CNBC), "Fox News Live" (Fox News Channel), "Glenn Beck Show" (CNN), "Your World with Neil Cavuto" (Fox News) and "700 Club" (Christian Broadcasting Network), "The Laura Ingraham Show," "The Michael Medved Show," "The G. Gordon Liddy Show," "The Rusty Humphries Show," "The Lars Larson Show" (nationally syndicated), "The Larry Elder Show," The Hugh Hewitt Show," "The Dennis Prager Show," among others.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>Shapiro is married and currently runs Benjamin Shapiro Legal Consulting, based in Los Angeles. He is Shillman Fellow at the Freedom Center.</Text>
+		</Row>
+		
+		
+		<!--Diplomacy-->
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Capitalism requires individual responsibility and accountability. People are seen as atomized units in a capitalist system - they are either useful, or they are not. They are not seen racially or ethnically or religiously. They consume and they produce, and those are their only relevant characteristics.</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Freedom of speech and thought matters, especially when it is speech and thought with which we disagree. The moment the majority decides to destroy people for engaging in thought it dislikes, thought crime becomes a reality.  If you are civil, come and visit me.</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Socialism has no moral justification whatsoever; poor people are not morally superior to rich people, nor are they owed anything by rich people simply because of their lack of success. Charity is not a socialist concept - it is a religious one, an acknowledgment of God's sovereignty over property, a sovereignty the Left utterly rejects.  Let me see your city.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>The European style of living is seductive: fewer hours worked, more hours at the cafe, less concern over self-betterment. But that style of living does not produce a purposeful life.</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Howdy gang.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>I'd be happy to.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Bad presidents don't deserve holidays. They deserve scorn.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>I have sent you a delegation of Harambe memes and Bollingbrook sheets.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>In reality I would never be for open borders. However, since this is a video game, it strategically makes sense.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>I don't want open borders for America.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>I would never be stupid enough to accept this deal.  Are you?</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Friends are utterly useless unless you can tell them whatever you want without consequences.  I believe we have something in common.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>When people are desperate or wealthy, they turn to socialism; only when they have no other alternative do they embrace the free market. After all, lies about guaranteed security are far more seductive than lectures about personal responsibility.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Why can't we be friends?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Wise choice, my friend.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Capitalism invariably boils down to barter between two willing parties, neither of whom uses force to work with the other.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Join forces with me, and together we will win the game!</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Make America Great Again.  Keep up the good work.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Are you insane?! Do you require counselling?</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Tread carefully!  We can erase you from existence if we so choose.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY}</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY}</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>What an asinine comment.  You remind me of Milo.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Good thing you don't live in my country.  You would be either jailed, killed, or castrated. (Denounces You)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>YEAH BOI! Now we are talking... I have Nukes by the way...</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>I warned you.  Now you will feel the wrath of the US rain hell on you, you pathetic, insignificant piece of garbage.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Remember this, I am sparing you.  Don't make me regret it.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Every so often, we all gaze into the abyss. It's a depressing fact of life that eventually the clock expires; eventually the sand in the hourglass runs out. It's the leaving behind of everything that matters to us that hurts the most.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>This seems to be the most strategic move I can make at this point.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>Oh well, back to the real world.  You are probably an Antifa member anywyas.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_MWK_BEN_SHAPIRO_ANY" Language="en_US">
+			<Text>[LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MWK_BEN_SHAPIRO_ANY]</Text>
+		</Row>
+
+
+
+
+		
+		
+		
+		
+		
+		
+
+		<!--Traits-->
+		<Row Tag="LOC_TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE_NAME" Language="en_US">
+			<Text>Thug Life</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE_DESCRIPTION" Language="en_US">
+			<Text>Grants Access to Harambe in the early game and Hebrew Hammers in the Late Game.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_NAME" Language="en_US">
+			<Text>Capitalism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_DESCRIPTION" Language="en_US">
+			<Text>+20% [Icon_Production] in all cities.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_UNITS_NAME" Language="en_US">
+			<Text>Jew</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_UNITS_DESCRIPTION" Language="en_US">
+			<Text>Gain access to Hebrew Hammer</Text>
+		</Row>
+		
+
+
+		<!--Buildings-->
+		<Row Tag="LOC_BUILDING_MWK_BIRCH_GOLD_NAME" Language="en_US">
+			<Text>Birch Gold Group</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MWK_BIRCH_GOLD_DESCRIPTION" Language="en_US">
+			<Text>+8 [Icon_Gold] and +1 Economic Policy Slot.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MONUMENT_NAME" Language="en_US">
+			<Text>Harambe Memorial</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MONUMENT_DESCRIPTION" Language="en_US">
+			<Text>+3[Icon_culture]</Text>
+		</Row>
+
+		<!--Units-->
+		<Row Tag="LOC_UNIT_MWK_HEBREW_HAMMER_NAME" Language="en_US">
+			<Text>Hebrew Hammer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MWK_HEBREW_HAMMER_DESCRIPTION" Language="en_US">
+			<Text>If Native Americans want to rename Tomahawk missiles, I am happy to offer to rename them Hebrew Hammers on behalf of the Jews.</Text>
+		</Row>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</LocalizedText>
+</GameData>

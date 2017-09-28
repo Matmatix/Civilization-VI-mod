@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Units -->
+<!-- Author: Matt -->
+<!-- DateCreated: 9/23/2017 4:10:57 PM -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_MWK_HEBREW_HAMMER" Kind="KIND_UNIT"/>
+	</Types>
+	
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MWK_HEBREW_HAMMER" AiType="UNITAI_COMBAT"/>
+	</UnitAiInfos>
+	
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MWK_HEBREW_HAMMER" ReplacesUnitType="UNIT_MISSILE_CRUISER"/>
+	</UnitReplaces>
+	<TypeTags>
+		<Row Type="UNIT_MWK_HEBREW_HAMMER" Tag="CLASS_NAVAL_RANGED"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_MWK_HEBREW_HAMMER"
+			 BaseMoves="5" Cost="680"
+			 AdvisorType="ADVISOR_CONQUEST"
+			 BaseSightRange="4"
+			 ZoneOfControl="true" Domain="DOMAIN_SEA"
+			 FormationClass="FORMATION_CLASS_NAVAL"
+			 Name="LOC_UNIT_MWK_HEBREW_HAMMER_NAME"
+			 Description="LOC_UNIT_MWK_HEBREW_HAMMER_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_NAVAL_RANGED"
+			 Maintenance="7" Combat="65"
+			 RangedCombat="85" Range="3"
+			 PrereqTech="TECH_LASERS"
+			 CanTargetAir="TRUE" AntiAirCombat="90"
+			 TraitType="TRAIT_CIVILIZATION_MWK_UNITS"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_BATTLESHIP" UpgradeUnit="UNIT_MWK_HEBREW_HAMMER"/>
+	</UnitUpgrades>
+
+
+
+
+
+
+
+
+
+
+</GameData>

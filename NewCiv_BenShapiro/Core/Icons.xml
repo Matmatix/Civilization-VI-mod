@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+		
+		<Row Name="ICON_ATLAS_BEN_SHAPIRO" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BEN_SHAPIRO_32.dds"/>
+		<Row Name="ICON_ATLAS_BEN_SHAPIRO" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BEN_SHAPIRO_45.dds"/>
+		<Row Name="ICON_ATLAS_BEN_SHAPIRO" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BEN_SHAPIRO_50.dds"/>
+		<Row Name="ICON_ATLAS_BEN_SHAPIRO" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BEN_SHAPIRO_55.dds"/>
+		<Row Name="ICON_ATLAS_BEN_SHAPIRO" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BEN_SHAPIRO_64.dds"/>
+		<Row Name="ICON_ATLAS_BEN_SHAPIRO" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BEN_SHAPIRO_80.dds"/>
+		<Row Name="ICON_ATLAS_BEN_SHAPIRO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BEN_SHAPIRO_256.dds"/>
+
+		<!--CIV Icons-->
+
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_32.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_45.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_50.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_55.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_64.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_80.dds"/>
+		<Row Name="ICON_ATLAS_CIV_CUSTOM" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIV_CUSTOM_256.dds"/>
+
+		<!--Building Icons-->
+	<!--<Row Name="ICON_ATLAS_BUILDING_HARAMBE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_HARAMBE_32.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_HARAMBE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_HARAMBE_45.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_HARAMBE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_HARAMBE_50.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_HARAMBE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_HARAMBE_55.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_HARAMBE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_HARAMBE_64.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_HARAMBE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_HARAMBE_80.dds"/>
+		<Row Name="ICON_ATLAS_BUILDING_HARAMBE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_BUILDING_HARAMBE_256.dds"/>
+		-->
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<!--Leader Icons-->
+		<Row Name="ICON_LEADER_MWK_BEN_SHAPIRO" Atlas="ICON_ATLAS_BEN_SHAPIRO" Index="0"/>
+
+		<!--Civilization Icons-->
+		<Row Name="ICON_CIVILIZATION_MWK_CIV_AMERICA" Atlas="ICON_ATLAS_CIV_CUSTOM" Index="0"/>
+
+
+		<!--Building Icons-->
+		<Row Name="ICON_BUILDING_MWK_BIRCH_GOLD" Atlas="ICON_ATLAS_BUILDINGS" Index="23"/>
+		<Row Name="ICON_BUILDING_MWK_HARAMBE_MONUMENT" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/>
+		
+		<!--Unit Icons-->
+		<Row Name="ICON_UNIT_MWK_HEBREW_HAMMER" Atlas="ICON_ATLAS_UNITS" Index="93"/>
+
+	</IconDefinitions>
+</GameData>

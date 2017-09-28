@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_MWK_BIRCH_GOLD" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MWK_HARAMBE_MONUMENT" Kind ="KIND_BUILDING"/>
+	</Types>
+	
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_MWK_BIRCH_GOLD" ReplacesBuildingType="BUILDING_BANK"/>
+		<Row CivUniqueBuildingType="BUILDING_MWK_HARAMBE_MONUMENT" ReplacesBuildingType="BUILDING_MONUMENT"/>
+	</BuildingReplaces>
+	
+	<Buildings>
+		<Row BuildingType="BUILDING_MWK_BIRCH_GOLD" Name="LOC_BUILDING_MWK_BIRCH_GOLD_NAME" Description="LOC_BUILDING_MWK_BIRCH_GOLD_DESCRIPTION" PrereqTech="TECH_BANKING" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC" Maintenance="0" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_MWK_UNITS"/>
+		<Row BuildingType="BUILDING_MWK_HARAMBE_MONUMENT" Name="LOC_BUILDING_MWK_HARAMBE_MONUMENT_NAME" Description="LOC_BUILDING_MWK_HARAMBE_MONUMENT_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE" Maintenance="0" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_MWK_UNITS"/>
+	</Buildings>
+	
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MWK_BIRCH_GOLD" YieldType="YIELD_GOLD" YieldChange="8"/>
+		<Row BuildingType="BUILDING_MWK_HARAMBE_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="3"/>
+	</Building_YieldChanges>
+	
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_MWK_BIRCH_GOLD" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>MWK_BIRCH_GOLD_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	
+	
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MWK_BIRCH_GOLD_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+	</ModifierArguments>
+
+
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_MWK_BIRCH_GOLD</BuildingType>
+			<ModifierId>MWK_BIRCH_GOLD_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</GameInfo>
