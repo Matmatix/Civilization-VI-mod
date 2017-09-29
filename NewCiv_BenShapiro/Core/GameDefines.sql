@@ -23,7 +23,7 @@ VALUES	('LEADER_MWK_BEN_SHAPIRO',	'LOC_PEDIA_LEADERS_PAGE_LEADER_MWK_BEN_SHAPIRO
 --------------------------------------------------------------------------------------------------------------------------	
 INSERT INTO HistoricalAgendas	
 		(LeaderType,					AgendaType)
-VALUES	('LEADER_MWK_BEN_SHAPIRO',	'AGENDA_PEACEKEEPER');
+VALUES	('LEADER_MWK_BEN_SHAPIRO',	'AGENDA_WESTERNIZER');
 --------------------------------------------------------------------------------------------------------------------------
 -- AgendaPreferredLeaders
 --------------------------------------------------------------------------------------------------------------------------	
@@ -43,8 +43,8 @@ VALUES	('LEADER_MWK_BEN_SHAPIRO',	'Unique',		'COLOR_PLAYER_MWK_CIV_AMERICA_BEN_S
 
 INSERT INTO Colors 
 		(Type, 														Red, 	Green, 	Blue, 	Alpha)
-VALUES	('COLOR_PLAYER_MWK_CIV_AMERICA_BEN_SHAPIRO_PRIMARY', 		0.439,  0.502,  0.565,	1),
-		('COLOR_PLAYER_MWK_CIV_AMERICA_BEN_SHAPIRO_SECONDARY', 		0.000,  0.000,  0.502,	1);
+VALUES	('COLOR_PLAYER_MWK_CIV_AMERICA_BEN_SHAPIRO_PRIMARY', 		0.140,	0.255,	0.372,	1),
+		('COLOR_PLAYER_MWK_CIV_AMERICA_BEN_SHAPIRO_SECONDARY', 		0.275,  0.275,  0.275,	1);
 
 
 
@@ -87,6 +87,7 @@ VALUES	('MWK_BEN_SHAPIRO_Buildings',		  'TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE'
 INSERT INTO AiFavoredItems		
 		(ListType,						Favored,	  Value,			    Item)
 VALUES	('MWK_BEN_SHAPIRO_Buildings',			1,			  0,				    'BUILDING_MWK_BIRCH_GOLD'),
+		('MWK_BEN_SHAPIRO_Buildings',			1,			  1,					'BUILDING_MWK_HARAMBE_MONUMENT'),
 		('MWK_BEN_SHAPIRO_Civics',				1,			  0,					'CIVIC_CAPITALISM'),					
 		('MWK_BEN_SHAPIRO_DiplomaticActions',	1,			  0,				    'DIPLOACTION_DECLARE_SURPRISE_WAR'), 
 		('MWK_BEN_SHAPIRO_Districts',			1,			  1,				    'DISTRICT_COMMERCIAL_HUB'), 
@@ -297,33 +298,29 @@ VALUES	('TRAIT_CIVILIZATION_MWK_CAPITALISM',					'KIND_TRAIT'),
 INSERT INTO Traits				
 		(TraitType,													Name,													Description)
 VALUES	('TRAIT_CIVILIZATION_MWK_CAPITALISM',						'LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_NAME',			'LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_DESCRIPTION'),
-		('TRAIT_CIVILIZATION_MWK_UNITS',						'LOC_TRAIT_CIVILIZATION_MWK_UNITS_NAME',			'LOC_TRAIT_CIVILIZATION_MWK_UNITS_DESCRIPTION');
+		('TRAIT_CIVILIZATION_MWK_UNITS',							'LOC_TRAIT_CIVILIZATION_MWK_UNITS_NAME',			'LOC_TRAIT_CIVILIZATION_MWK_UNITS_DESCRIPTION');
 		
 --------------------------------------------------------------------------------------------------------------------------		
 -- TraitModifiers		
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,											ModifierId)
-VALUES	('TRAIT_CIVILIZATION_MWK_CAPITALISM',				'MWK_TRAIT_EXP_ATK'),
-		('TRAIT_CIVILIZATION_MWK_CAPITALISM',				'MWK_TRAIT_EXP'),
-		('TRAIT_CIVILIZATION_MWK_CAPITALISM',				'MWK_TRAIT_GoldPerKill');																					
+VALUES	('TRAIT_CIVILIZATION_MWK_CAPITALISM',				'MWK_TRAIT_BonusProduction');																					
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType)
-VALUES	('MWK_TRAIT_EXP_ATK',										'MODIFIER_PLAYER_UNITS_ADJUST_UNIT_ATTACK_EXPERIENCE_MODIFIER'),
-		('MWK_TRAIT_EXP',											'MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER'),
-		('MWK_TRAIT_GoldPerKill',									'MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD');			
+VALUES ('MWK_TRAIT_BonusProduction',								'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER'),
+	   ('MWK_TRAIT_LessMaintenance',								'MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT');			
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,						Value)
-VALUES	('MWK_TRAIT_EXP_ATK',										'Amount',					'50'),
-		('MWK_TRAIT_EXP',											'Amount',					'50'),
-		('MWK_TRAIT_GoldPerKill',									'YieldType',				'YIELD_GOLD'),
-		('MWK_TRAIT_GoldPerKill',									'PercentDefeatedStrength',	'100');				
+VALUES	('MWK_TRAIT_BonusProduction',								'YieldType',			'YIELD_PRODUCTION'),
+		('MWK_TRAIT_BonusProduction',								'Amount',	'100'),
+		('MWK_TRAIT_LessMaintenance',								'Amount',	'-1');				
 
 
 

@@ -280,11 +280,7 @@
 		
 		<!--DOM-->
 		<Row Tag="LOC_LOADING_INFO_LEADER_MWK_BEN_SHAPIRO" Language="en_US">
-			<Text>Benjamin Aaron Shapiro (born January 15, 1984) is an American conservative political commentator, columnist, author, radio talk show host, lawyer, and the 46th President of the United States.  
-			A native of Los Angeles, California, Shapiro graduated from Yeshiva University High School of Los Angeles at age 16, after skipping two grades.  He graduated summa cum laude and Phi Beta Kappa from the University of California, 
-			Los Angeles in 2004, at age 20, with a Bachelor of Arts degree in political science, and then cum laude from Harvard Law School in 2007.  He then practiced law at Goodwin Procter. Today he runs an independent legal consultancy firm, 
-			Benjamin Shapiro Legal Consulting, in Los Angeles.  He has written seven books, the first being 2004's Brainwashed: How Universities Indoctrinate America's Youth, which he started writing when 17 years old.  At age 17, he also became 
-			the youngest nationally syndicated writer in the country.  He writes a column for Creators Syndicate and is editor-in-chief at The Daily Wire. He is the co-founder and former editor-in-chief of the media watchdog group TruthRevolt.</Text>
+			<Text>Benjamin Aaron Shapiro (born January 15, 1984) is an American conservative political commentator, columnist, author, radio talk show host, lawyer, and the 46th President of the United States.  A native of Los Angeles, California, Shapiro graduated from Yeshiva University High School of Los Angeles at age 16, after skipping two grades.  He graduated summa cum laude and Phi Beta Kappa from the University of California, Los Angeles in 2004, at age 20, with a Bachelor of Arts degree in political science, and then cum laude from Harvard Law School in 2007.</Text>
 		</Row>
 		
 		
@@ -477,7 +473,7 @@
 			<Text>Capitalism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_DESCRIPTION" Language="en_US">
-			<Text>+20% [Icon_Production] in all cities.</Text>
+			<Text>+20% [Icon_Production] for all of your cities.  Also, maintenance is reduced by -1 [Icon_Gold] for all units.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_UNITS_NAME" Language="en_US">
@@ -494,14 +490,14 @@
 			<Text>Birch Gold Group</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MWK_BIRCH_GOLD_DESCRIPTION" Language="en_US">
-			<Text>+8 [Icon_Gold] and +1 Economic Policy Slot.</Text>
+			<Text>Provides +8 [Icon_Gold] and +1 Economic Policy Slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MONUMENT_NAME" Language="en_US">
 			<Text>Harambe Memorial</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MONUMENT_DESCRIPTION" Language="en_US">
-			<Text>+3[Icon_culture]</Text>
+			<Text>Provides +3% [Icon_Culture] to your civilization.</Text>
 		</Row>
 
 		<!--Units-->

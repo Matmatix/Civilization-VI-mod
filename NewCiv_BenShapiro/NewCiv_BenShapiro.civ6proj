@@ -81,10 +81,70 @@
     <Content Include="Textures\FALLBACK_NEUTRAL_BEN_SHAPIRO.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_BUILDING_HARAMBE_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_22.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_CIV_CUSTOM_256.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_CUSTOM_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_30.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_CUSTOM_32.dds">
@@ -93,10 +153,28 @@
     <Content Include="Textures\ICON_CIV_CUSTOM_32.tex">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_44.tex">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Textures\ICON_CIV_CUSTOM_45.dds">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_CUSTOM_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\ICON_CIV_CUSTOM_48.tex">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Textures\ICON_CIV_CUSTOM_50.dds">
