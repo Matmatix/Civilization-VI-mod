@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Author: R3VOLUTION, Date: 9/30/17-->
 <GameData>
 	<IconTextureAtlases>
 		<!--Leader Icons-->
@@ -47,10 +48,11 @@
 
 		<!--Building Icons-->
 		<Row Name="ICON_BUILDING_MWK_BIRCH_GOLD" Atlas="ICON_ATLAS_BUILDINGS" Index="23"/>
-		<Row Name="ICON_BUILDING_MWK_HARAMBE_MONUMENT" Atlas="ICON_ATLAS_BUILDING_HARAMBE" Index="0"/>
+		<Row Name="ICON_BUILDING_MWK_HARAMBE_MEMORIAL" Atlas="ICON_ATLAS_BUILDING_HARAMBE" Index="0"/>
 		
 		<!--Unit Icons-->
 		<Row Name="ICON_UNIT_MWK_HEBREW_HAMMER" Atlas="ICON_ATLAS_UNITS" Index="93"/>
+
 
 	</IconDefinitions>
 </GameData>

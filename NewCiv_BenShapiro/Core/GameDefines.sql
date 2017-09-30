@@ -87,7 +87,7 @@ VALUES	('MWK_BEN_SHAPIRO_Buildings',		  'TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE'
 INSERT INTO AiFavoredItems		
 		(ListType,						Favored,	  Value,			    Item)
 VALUES	('MWK_BEN_SHAPIRO_Buildings',			1,			  0,				    'BUILDING_MWK_BIRCH_GOLD'),
-		('MWK_BEN_SHAPIRO_Buildings',			1,			  1,					'BUILDING_MWK_HARAMBE_MONUMENT'),
+		('MWK_BEN_SHAPIRO_Buildings',			1,			  1,					'BUILDING_MWK_HARAMBE_MEMORIAL'),
 		('MWK_BEN_SHAPIRO_Civics',				1,			  0,					'CIVIC_CAPITALISM'),					
 		('MWK_BEN_SHAPIRO_DiplomaticActions',	1,			  0,				    'DIPLOACTION_DECLARE_SURPRISE_WAR'), 
 		('MWK_BEN_SHAPIRO_Districts',			1,			  1,				    'DISTRICT_COMMERCIAL_HUB'), 
@@ -256,25 +256,21 @@ VALUES	('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'LOC_TRAIT_LEADER_MWK_BEN_SH
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
-VALUES	('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1');
+VALUES	('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1'),
+		('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'MWK_BEN_SHAPIRO_THUG_LIFE_HEAL_WITH_GOLD');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType)
-VALUES	('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1',			'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER');
+VALUES	('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1',				'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER'),
+		('MWK_BEN_SHAPIRO_THUG_LIFE_HEAL_WITH_GOLD',			'MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION');
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
 VALUES	('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1',			'GovernmentSlotType',			'SLOT_MILITARY');
-
-
-
-
-
-
 
 
 
@@ -305,7 +301,8 @@ VALUES	('TRAIT_CIVILIZATION_MWK_CAPITALISM',						'LOC_TRAIT_CIVILIZATION_MWK_CA
 --------------------------------------------------------------------------------------------------------------------------			
 INSERT INTO TraitModifiers			
 		(TraitType,											ModifierId)
-VALUES	('TRAIT_CIVILIZATION_MWK_CAPITALISM',				'MWK_TRAIT_BonusProduction');																					
+VALUES	('TRAIT_CIVILIZATION_MWK_CAPITALISM',				'MWK_TRAIT_BonusProduction'),
+		('TRAIT_CIVILIZATION_MWK_CAPITALISM',				'MWK_TRAIT_LessMaintenance');																			
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
@@ -319,8 +316,8 @@ VALUES ('MWK_TRAIT_BonusProduction',								'MODIFIER_PLAYER_CITIES_ADJUST_CITY_
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,						Value)
 VALUES	('MWK_TRAIT_BonusProduction',								'YieldType',			'YIELD_PRODUCTION'),
-		('MWK_TRAIT_BonusProduction',								'Amount',	'100'),
-		('MWK_TRAIT_LessMaintenance',								'Amount',	'-1');				
+		('MWK_TRAIT_BonusProduction',								'Amount',	'20'),
+		('MWK_TRAIT_LessMaintenance',								'Amount',	'3');				
 
 
 

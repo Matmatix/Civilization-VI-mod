@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Author: R3VOLUTION, Date: 9/30/17-->
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<LocalizedText>
@@ -466,14 +467,14 @@
 			<Text>Thug Life</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE_DESCRIPTION" Language="en_US">
-			<Text>Grants Access to Harambe in the early game and Hebrew Hammers in the Late Game.</Text>
+			<Text>Grants Access to the Harambe Memorial in the early game and Hebrew Hammers in the late game.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_NAME" Language="en_US">
 			<Text>Capitalism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_DESCRIPTION" Language="en_US">
-			<Text>+20% [Icon_Production] for all of your cities.  Also, maintenance is reduced by -1 [Icon_Gold] for all units.</Text>
+			<Text>+20% [Icon_Production] for all of your cities.  Also, maintenance is -3 [Icon_Gold] for all units.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_UNITS_NAME" Language="en_US">
@@ -490,14 +491,14 @@
 			<Text>Birch Gold Group</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MWK_BIRCH_GOLD_DESCRIPTION" Language="en_US">
-			<Text>Provides +8 [Icon_Gold] and +1 Economic Policy Slot.</Text>
+			<Text>Provides +8 [Icon_Gold] and +1 Economic Policy Slot.  Replaces the bank.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MONUMENT_NAME" Language="en_US">
+		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MEMORIAL_NAME" Language="en_US">
 			<Text>Harambe Memorial</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MONUMENT_DESCRIPTION" Language="en_US">
-			<Text>Provides +3% [Icon_Culture] to your civilization.</Text>
+		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MEMORIAL_DESCRIPTION" Language="en_US">
+			<Text>This is an improvement to the early game monument.  Provides +3% [Icon_Culture] to your civilization.</Text>
 		</Row>
 
 		<!--Units-->
@@ -508,6 +509,10 @@
 			<Text>If Native Americans want to rename Tomahawk missiles, I am happy to offer to rename them Hebrew Hammers on behalf of the Jews.</Text>
 		</Row>
 		
+		<!--Unit Commands-->
+		<Row Tag="LOC_UNITCOMMAND_HEAL_DESCRIPTION" Language="en_US">
+			<Text>This command will heal units with gold.</Text>
+		</Row>
 
 
 

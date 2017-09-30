@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Author: R3VOLUTION, Date: 9/30/17-->
 <GameInfo>
 	<Types>
 		<Row Type="BUILDING_MWK_BIRCH_GOLD" Kind="KIND_BUILDING"/>
-		<Row Type="BUILDING_MWK_HARAMBE_MONUMENT" Kind ="KIND_BUILDING"/>
+		<Row Type="BUILDING_MWK_HARAMBE_MEMORIAL" Kind ="KIND_BUILDING"/>
 	</Types>
 	
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_MWK_BIRCH_GOLD" ReplacesBuildingType="BUILDING_BANK"/>
-		<Row CivUniqueBuildingType="BUILDING_MWK_HARAMBE_MONUMENT" ReplacesBuildingType="BUILDING_MONUMENT"/>
+		<Row CivUniqueBuildingType="BUILDING_MWK_HARAMBE_MEMORIAL" ReplacesBuildingType="BUILDING_MONUMENT"/>
 	</BuildingReplaces>
 	
 	<Buildings>
 		<Row BuildingType="BUILDING_MWK_BIRCH_GOLD" Name="LOC_BUILDING_MWK_BIRCH_GOLD_NAME" Description="LOC_BUILDING_MWK_BIRCH_GOLD_DESCRIPTION" PrereqTech="TECH_BANKING" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="300" AdvisorType="ADVISOR_GENERIC" Maintenance="0" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_MWK_UNITS"/>
-		<Row BuildingType="BUILDING_MWK_HARAMBE_MONUMENT" Name="LOC_BUILDING_MWK_HARAMBE_MONUMENT_NAME" Description="LOC_BUILDING_MWK_HARAMBE_MONUMENT_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE" Maintenance="0" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_MWK_UNITS"/>
+		<Row BuildingType="BUILDING_MWK_HARAMBE_MEMORIAL" Name="LOC_BUILDING_MWK_HARAMBE_MEMORIAL_NAME" Description="LOC_BUILDING_MWK_HARAMBE_MEMORIAL_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE" Maintenance="0" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_MWK_UNITS"/>
 	</Buildings>
 	
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_MWK_BIRCH_GOLD" YieldType="YIELD_GOLD" YieldChange="8"/>
-		<Row BuildingType="BUILDING_MWK_HARAMBE_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_MWK_HARAMBE_MEMORIAL" YieldType="YIELD_CULTURE" YieldChange="3"/>
 	</Building_YieldChanges>
 	
 	<Building_GreatPersonPoints>
