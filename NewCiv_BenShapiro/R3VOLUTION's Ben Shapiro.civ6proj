@@ -7,7 +7,7 @@
     <ProjectGuid>f93178da-fec3-45e2-a4d9-048dc1a0a5c1</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Adds Ben Shapiro's United States to the game</Teaser>
-    <Description>Adds Ben Shapiro's United States to the game.[NEWLINE][NEWLINE][COLOR_RED]Leader Trait: Thug Life[ENDCOLOR][NEWLINE]This trait adds an extra military policy slot.[NEWLINE][NEWLINE][COLOR_RED]Civilization Trait: Capitalism[ENDCOLOR][NEWLINE]This trait gives every cities a bonus +20%[Icon_Production] and gives a maintenance discount of -3[Icon_Gold].[NEWLINE][NEWLINE][COLOR_GREEN]Adds Units:[ENDCOLOR][NEWLINE]-- Hebrew Hammer[NEWLINE][COLOR_GREEN]Adds Buildings:[ENDCOLOR][NEWLINE]-- Harambe Memorial - Improved Monument (+3[Icon_Culture])[NEWLINE]-- Birch Gold Group - Improved Bank (+8[Icon_Gold])</Description>
+    <Description>Adds Ben Shapiro's United States to the game.[NEWLINE][NEWLINE][COLOR_RED]Leader Trait: Thug Life[ENDCOLOR][NEWLINE]This trait adds an extra military policy slot.[NEWLINE][NEWLINE][COLOR_RED]Civilization Trait: Capitalism[ENDCOLOR][NEWLINE]This trait gives all cities a bonus +20%[Icon_Production] and gives a maintenance discount of -3[Icon_Gold].[NEWLINE][NEWLINE][COLOR_GREEN]Adds Units:[ENDCOLOR][NEWLINE]-- Hebrew Hammer[NEWLINE][COLOR_GREEN]Adds Buildings:[ENDCOLOR][NEWLINE]-- Harambe Memorial - Improved Monument (+3[Icon_Culture])[NEWLINE]-- Birch Gold Group - Improved Bank (+8[Icon_Gold])</Description>
     <Authors>Matt</Authors>
     <SpecialThanks>
     </SpecialThanks>
