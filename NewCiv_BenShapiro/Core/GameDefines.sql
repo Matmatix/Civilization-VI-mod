@@ -257,20 +257,22 @@ VALUES	('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'LOC_TRAIT_LEADER_MWK_BEN_SH
 INSERT INTO TraitModifiers			
 		(TraitType,													ModifierId)
 VALUES	('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1'),
-		('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'MWK_BEN_SHAPIRO_THUG_LIFE_HEAL_WITH_GOLD');
+		('TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE',			'MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_2');
 --------------------------------------------------------------------------------------------------------------------------
 -- Modifiers
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO Modifiers	
 		(ModifierId,												ModifierType)
 VALUES	('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1',				'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER'),
-		('MWK_BEN_SHAPIRO_THUG_LIFE_HEAL_WITH_GOLD',			'MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION');
+		('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_2',				'MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER');
 --------------------------------------------------------------------------------------------------------------------------
 -- ModifierArguments
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ModifierArguments
 		(ModifierId,												Name,							Value)
-VALUES	('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1',			'GovernmentSlotType',			'SLOT_MILITARY');
+VALUES	('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_1',			'GovernmentSlotType',			'SLOT_MILITARY'),
+		('MWK_BEN_SHAPIRO_THUG_LIFE_EXTRA_SLOT_2',			'GovernmentSlotType',			'SLOT_ECONOMIC');
+
 
 
 

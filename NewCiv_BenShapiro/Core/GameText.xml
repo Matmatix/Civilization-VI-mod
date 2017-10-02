@@ -467,7 +467,7 @@
 			<Text>Thug Life</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_MWK_BEN_SHAPIRO_THUG_LIFE_DESCRIPTION" Language="en_US">
-			<Text>Grants Access to the Harambe Memorial in the early game and Hebrew Hammers in the late game.</Text>
+			<Text>Grants Access to the Harambe Memorial in the early game and Hebrew Hammers in the late game.  Also adds +1 Military Policy Slot and +1 Economic Policy Slot.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_MWK_CAPITALISM_NAME" Language="en_US">
@@ -491,7 +491,7 @@
 			<Text>Birch Gold Group</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_MWK_BIRCH_GOLD_DESCRIPTION" Language="en_US">
-			<Text>Provides +8 [Icon_Gold] and +1 Economic Policy Slot.  Replaces the bank.</Text>
+			<Text>Provides +8 [Icon_Gold].  Replaces the bank.</Text>
 		</Row>
 
 		<Row Tag="LOC_BUILDING_MWK_HARAMBE_MEMORIAL_NAME" Language="en_US">
